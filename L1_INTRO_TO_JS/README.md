@@ -1,20 +1,7 @@
 # Lecture 1 
 
 <index.html>
-<details> <summary>📌 Code Explanation </summary>
-This file starts with <!DOCTYPE html>, which tells the browser to use HTML5 for rendering. The <html> tag wraps the entire document and sets the language to English using lang="en".
+This HTML file is a basic structure for introducing JavaScript. It begins with the <!DOCTYPE html> declaration, which tells the browser to interpret the document using HTML5. The root <html> tag specifies the language as English using the lang="en" attribute. Inside the <head> section, several important elements are defined. The <meta charset="UTF-8"> tag ensures that the document uses UTF-8 character encoding, allowing it to support a wide range of characters and symbols. The <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag makes the page responsive by adjusting its layout based on the device's screen width and scale. The <title> tag sets the page's title in the browser tab to "Intro to JS".
 
-Inside the <head> section:
-
-<meta charset="UTF-8"> defines the character encoding, allowing special characters and symbols to be displayed correctly.
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> ensures the page looks good on mobile by setting width and scale.
-
-<title> sets the title that appears in the browser tab.
-
-<script src="./script.js"> links an external JavaScript file. This script runs when the page loads and adds interactive functionality.
-
-In the <body>, two <h1> headings say “Let’s learn JavaScript”. These appear in large font on the web page. The duplicate heading can be removed if only one is needed.
-
-</details>
+A <script> tag is used to link an external JavaScript file (script.js) which will be executed when the HTML is loaded. This allows for adding dynamic behavior to the page through JavaScript. In the <body> section, two identical <h1> tags are used to display the heading "Let's learn JavaScript" twice. These headings will appear in large font on the web page. If duplication isn’t intentional, one of them can be removed. Overall, this file serves as a simple starting point for experimenting with JavaScript by linking a script and displaying content on a webpage.
 
